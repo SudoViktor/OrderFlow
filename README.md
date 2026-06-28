@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/6f30c3c3-41a6-4174-acf4-23d07b9c2d8a
+
 # OrderFlow Terminal System
 
 Професійна CRM/ERP система для автоматизації бізнес-процесів (управління замовленнями, клієнтами та інвентарем).
