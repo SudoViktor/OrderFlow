@@ -21,9 +21,9 @@ https://github.com/user-attachments/assets/6f30c3c3-41a6-4174-acf4-23d07b9c2d8a
 * **UI/UX:** Адаптивний інтерфейс (Flexbox/Grid), модульна структура DOM-рендерінгу.
 
 ## 🚀 Як запустити
-1. Встановлення залежностей: `pip install -r requirements.txt`
-2. Налаштування `JWT_SECRET_KEY` у `__init__.py`.
-3. Запуск: `python run.py`
+1. git clone https://github.com/SudoViktor/OrderFlow.git
+2. cd OrderFlow
+3. docker-compose up -d --build
 
 ---
 
@@ -46,6 +46,6 @@ The system follows a **Client-Server** architecture. The backend ensures data in
 * **UI/UX:** Responsive design (Flexbox/Grid) with modular DOM rendering.
 
 ## 🚀 Deployment
-1. Install dependencies: `pip install -r requirements.txt`
-2. Configure `JWT_SECRET_KEY` in `__init__.py`.
-3. Run the app: `python run.py`
+1. git clone https://github.com/SudoViktor/OrderFlow.git
+2. cd OrderFlow
+3. docker-compose up -d --build
