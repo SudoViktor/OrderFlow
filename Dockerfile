@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Вказуємо, що контейнер слухатиме порт 5001
-EXPOSE 5001
+EXPOSE 5000
 
 # Команда для запуску твого Flask-сервера
 CMD ["python", "run.py"]
