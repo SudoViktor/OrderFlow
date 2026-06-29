@@ -1,6 +1,6 @@
 import { clearAuthData } from './auth.js';
 
-const BASE_URL = 'http://127.0.0.1:8000/';
+const BASE_URL = 'http://127.0.0.1:5001/';
 export async function apiRequest(endpoint, method = 'GET', body = null, token = null) {
     const headers = {
         'Content-Type': 'application/json'
