@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Файл для бекенду в корені
+    container_name: orderflow-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./site.db:/app/site.db
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend       # Докер буде шукати файли фронтенду тут
+      dockerfile: Dockerfile    # Dockerfile для фронтенду має лежати в папці frontend
+    container_name: orderflow-frontend
+    ports:
+      - "8080:80"
+    volumes:
+      # МАГІЯ ТУТ: Підключаємо всю твою папку frontend напряму в Nginx
+      - ./frontend:/usr/share/nginx/html
+    depends_on:
+      - backend
+    restart: unless-stopped

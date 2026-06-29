@@ -1,0 +1,15 @@
+frontend/
+frontend
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+instance/
+*.db
+site.db
+
+.git/
