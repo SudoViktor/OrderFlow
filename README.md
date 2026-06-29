@@ -24,6 +24,7 @@ https://github.com/user-attachments/assets/6f30c3c3-41a6-4174-acf4-23d07b9c2d8a
 1. git clone https://github.com/SudoViktor/OrderFlow.git
 2. cd OrderFlow
 3. docker-compose up -d --build
+4. Open: http://localhost:8080/
 
 ---
 
@@ -49,3 +50,4 @@ The system follows a **Client-Server** architecture. The backend ensures data in
 1. git clone https://github.com/SudoViktor/OrderFlow.git
 2. cd OrderFlow
 3. docker-compose up -d --build
+4. Open: http://localhost:8080/
